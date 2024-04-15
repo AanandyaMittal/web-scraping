@@ -13,3 +13,59 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 * (Question 6) Histogram shown with appropriate labelling: 1 pt
 * (Question 7) Histogram shown with appropriate labelling: 1 pt
 * (Question 8) Thoughtful answer provided: 1 pt
+
+# datafun-06-eda
+Presenting unique exploratory data analysis and presenting data stories
+
+## Dataset Description
+
+The seaborn geyser dataset found at  https://github.com/mwaskom/seaborn-data/blob/master/geyser.csv contains information about geyser characteristics:
+
+Variables:  
+duration - The length the geyser lasted  
+waiting - The length spent waiting for the geyser to start  
+kind - Whether the geyser was long or short  
+
+## How to Install and Run the Project
+
+```shell
+cd C:\Users\AanandyaMittal\Documents\
+git clone https://github.com/AanandyaMittal/web-scraping
+```
+
+## Virtual Environment Instructions for Creation and Activation
+
+On Windows, create a project virtual environment in the .venv folder. 
+
+```shell
+py -m venv .venv
+.venv\Scripts\Activate
+```
+
+## Install Requests
+
+```shell
+py -m pip install requests
+```
+
+## Freeze Requirements Instructions
+
+```shell
+py -m pip install -r requirements.txt
+py -m pip freeze > requirements.txt
+```
+
+
+## Git Commands for Adding, Committing, and Pushing
+
+```shell
+git add .
+git commit -m "insert commit"
+git push -u origin main
+```
+
+## Install Jupyter
+
+```shell
+py -m pip install jupyterlab numpy pandas matplotlib seaborn scipy pyarrow
+```
