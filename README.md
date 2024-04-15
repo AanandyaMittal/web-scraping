@@ -68,10 +68,5 @@ python -m pip install spacytextblob
 ## To html
 
 ```shell
-py -m pip install jupyterlab numpy pandas matplotlib seaborn
-python -m pip install beautifulsoup4
-python -m pip install html5lib
-python -m pip install requests
-python -m pip install spacy
-python -m pip install spacytextblob
+!jupyter nbconvert --to html web-scraping.ipynb
 ```
