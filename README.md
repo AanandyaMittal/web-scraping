@@ -14,17 +14,8 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 * (Question 7) Histogram shown with appropriate labelling: 1 pt
 * (Question 8) Thoughtful answer provided: 1 pt
 
-# datafun-06-eda
-Presenting unique exploratory data analysis and presenting data stories
-
-## Dataset Description
-
-The seaborn geyser dataset found at  https://github.com/mwaskom/seaborn-data/blob/master/geyser.csv contains information about geyser characteristics:
-
-Variables:  
-duration - The length the geyser lasted  
-waiting - The length spent waiting for the geyser to start  
-kind - Whether the geyser was long or short  
+# web-scraping
+This exercise is used to practice web scraping (fetching and extracting information) and processing the content from a web page. 
 
 ## How to Install and Run the Project
 
@@ -64,8 +55,23 @@ git commit -m "insert commit"
 git push -u origin main
 ```
 
-## Install Jupyter
+## Install Jupyter and libraries
 
 ```shell
-py -m pip install jupyterlab numpy pandas matplotlib seaborn scipy pyarrow
+py -m pip install jupyterlab numpy pandas matplotlib seaborn
+python -m pip install beautifulsoup4
+python -m pip install html5lib
+python -m pip install requests
+python -m pip install spacy
+python -m pip install spacytextblob
+```
+## To html
+
+```shell
+py -m pip install jupyterlab numpy pandas matplotlib seaborn
+python -m pip install beautifulsoup4
+python -m pip install html5lib
+python -m pip install requests
+python -m pip install spacy
+python -m pip install spacytextblob
 ```
